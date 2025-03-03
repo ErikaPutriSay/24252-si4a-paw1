@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box; /* agar rata 100 */
+}
+/*element selector*/
+Body {
+    background-color: #B9B28A;
+    font-family: arial;
+}
+
+p {
+    color:yellow
+}
+
+h1, h2, h3{
+    color:green;
+}
+/* class selector */
+.bg-warning {
+    background-color: yellow;
+}
+
+.text-sucsess {
+    color:green;
+}
+ 
+/*id selector */
+#h5{
+    color:blue;
+}
+
+a {
+    text-decoration: none;
+    color:green;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.rounded {
+    border-radius: 50px;
+}
+
+/*fore */
+input[type="text"], input[type="date"], textarea, select {
+    width:20%;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid green;
+
+
+}
+
+button{
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color:green;
+    color: white;
+    padding: 5px;
+    width: 10%;
+}
